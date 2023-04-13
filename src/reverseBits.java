@@ -30,13 +30,13 @@ class Solution2 {
     }
 }
 
-public class Test2 {
+public class reverseBits {
     public static void main(String[] args) {
-        System.out.println(Solution.reverseBits(0));
-        System.out.println(Solution.reverseBits(30));
-        System.out.println(Solution.reverseBits(1775));
-        System.out.println(Solution.reverseBits(2147483647));
-        System.out.println(Solution.reverseBits(-1));
+        System.out.println(Solution2.reverseBits(0));
+        System.out.println(Solution2.reverseBits(30));
+        System.out.println(Solution2.reverseBits(1775));
+        System.out.println(Solution2.reverseBits(2147483647));
+        System.out.println(Solution2.reverseBits(-1));
         return;
     }
 }
