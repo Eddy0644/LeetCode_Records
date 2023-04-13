@@ -1,4 +1,4 @@
-class Solution {
+class Solution3 {
     public static int countOperations(int num1, int num2) {
         int count = 0;
         for (; num1 != 0 && num2 != 0; count++) {
@@ -10,8 +10,8 @@ class Solution {
 }
 public class countOperations {
     public static void main(String[] args) {
-        System.out.println(Solution.countOperations(5,4));
-        System.out.println(Solution.countOperations(2,3));
+        System.out.println(Solution3.countOperations(5,4));
+        System.out.println(Solution3.countOperations(2,3));
         System.out.println("Run successful.");
     }
 }
