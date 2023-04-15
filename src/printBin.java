@@ -1,5 +1,5 @@
 
-class Solution {
+class Solution7 {
     public static String printBin(double num) {
         Boolean[] layers=new Boolean[32];
         for (int i = 31; i >=0; i--) layers[i]=false;
@@ -30,8 +30,8 @@ class Solution {
 }
 public class printBin {
     public static void main(String[] args) {
-        System.out.println(Solution.printBin(0.625));
-        System.out.println(Solution.printBin(0.6875));
+        System.out.println(Solution7.printBin(0.625));
+        System.out.println(Solution7.printBin(0.6875));
         System.out.println("Run successful.");
     }
 }
