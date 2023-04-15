@@ -1,7 +1,7 @@
 import java.util.Deque;
 import java.util.LinkedList;
 
-class Solution {
+class Solution4 {
     @SuppressWarnings("PointlessBooleanExpression")
     public static int sumSubarrayMins(int[] arr) {
         //Guided 2nd code - used mono stack
@@ -60,8 +60,8 @@ class Solution {
 
 public class sumSubarrayMins {
     public static void main(String[] args) {
-        System.out.println(Solution.sumSubarrayMins(new int[]{3, 1, 2, 4}));
-        System.out.println(Solution.sumSubarrayMins(new int[]{11, 81, 94, 43, 3}));
+        System.out.println(Solution4.sumSubarrayMins(new int[]{3, 1, 2, 4}));
+        System.out.println(Solution4.sumSubarrayMins(new int[]{11, 81, 94, 43, 3}));
         System.out.println("Run successful.");
     }
 }
