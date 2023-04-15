@@ -1,4 +1,4 @@
-class Solution {
+class Solution5 {
     public static int hIndex(int[] citations) {
         int[] ac = new int[1000];
         int maxQuote = 0;
@@ -19,8 +19,8 @@ class Solution {
 
 public class hIndex {
     public static void main(String[] args) {
-        System.out.println(Solution.hIndex(new int[]{3, 0, 6, 1, 5}));
-        System.out.println(Solution.hIndex(new int[]{1, 3, 1}));
+        System.out.println(Solution5.hIndex(new int[]{3, 0, 6, 1, 5}));
+        System.out.println(Solution5.hIndex(new int[]{1, 3, 1}));
         System.out.println("Run successful.");
     }
 }

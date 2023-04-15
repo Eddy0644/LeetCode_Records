@@ -33,6 +33,7 @@ class Solution4 {
         return (int)ans;
     }
 
+    @SuppressWarnings("unused")
     public static int sumSubarrayMins1(int[] arr) {
         //Self produced code - 1st
         int M = 1000000007;
