@@ -1,4 +1,4 @@
-class Solution {
+class Solution6 {
     public static int waysToChange0(int n) {
         int[] coin = new int[]{25, 10, 5, 1}, optimised = new int[4], now;
         int sum = n;
@@ -52,8 +52,8 @@ class Solution {
 
 public class waysToChange {
     public static void main(String[] args) {
-        System.out.println(Solution.waysToChange(53));
-        System.out.println(Solution.waysToChange(900750));
+        System.out.println(Solution6.waysToChange(53));
+        System.out.println(Solution6.waysToChange(900750));
         System.out.println("Run successful.");
     }
 }
