@@ -1,5 +1,5 @@
 class Solution {
-    public static int waysToChange(int n) {
+    public static int waysToChange0(int n) {
         int[] coin = new int[]{25, 10, 5, 1}, optimised = new int[4], now;
         int sum = n;
         for (int i = 0; i < 4; i++) {
@@ -9,14 +9,12 @@ class Solution {
             }
         }
         now = optimised.clone();
-//        for (int i = 0; i < 4; i++) {
-//
-//        }
-        while (now[0] != 0) {
-            now[0]--;
-            now[1] += 2;
-            now[2] += 1;
+        for (int ca = 0; ca < now[0]; ca++) {
+            for (int cb = 0; cb < now[1]; cb++) {
+
+            }
         }
+        return 0;
     }
 
     public static int waysToChange1(int n) {
@@ -40,11 +38,22 @@ class Solution {
         System.out.printf("n=%d --> %d,%d,%d,%d\n", n, a, b, c, d);
         return 0;
     }
+
+    public static int waysToChange(int n) {
+        //Guided by 'math' solution
+        int sum = 0;
+        for (int i = 0; i * 25 <= n; i++) {
+            int rest = n - i * 25, a0 = rest / 10, b0 = rest % 10 / 5;
+            sum = (sum + ((a0 + 1) * (a0 + b0 + 1)) % 1000000007) % 1000000007;
+        }
+        return sum;
+    }
 }
 
 public class waysToChange {
     public static void main(String[] args) {
         System.out.println(Solution.waysToChange(53));
+        System.out.println(Solution.waysToChange(900750));
         System.out.println("Run successful.");
     }
 }
