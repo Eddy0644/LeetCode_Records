@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e535188a-d5eb-483b-aa87-036adfbc2280" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/getHappyString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/findMinFibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findMinFibonacciNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getHappyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/getHappyString.java" afterDir="false" />
     </list>
     <list id="f13b16a3-b129-4a71-96a8-bdf72f597afa" name="no变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <workItem from="1681549066080" duration="1494000" />
       <workItem from="1681559863665" duration="8181000" />
       <workItem from="1681635298291" duration="381000" />
-      <workItem from="1682075065140" duration="6349000" />
+      <workItem from="1682075065140" duration="8008000" />
     </task>
     <task id="LOCAL-00001" summary="init repo">
       <created>1681386443253</created>
@@ -172,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682076557537</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="..">
+      <created>1682081768968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682081768968</updated>
+    </task>
+    <task id="LOCAL-00017" summary=".success">
+      <created>1682082858484</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682082858484</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +201,9 @@
     <MESSAGE value="." />
     <MESSAGE value=".findMinFibonacciNumbers" />
     <MESSAGE value=".rewrite" />
-    <option name="LAST_COMMIT_MESSAGE" value=".rewrite" />
+    <MESSAGE value=".." />
+    <MESSAGE value=".success" />
+    <option name="LAST_COMMIT_MESSAGE" value=".success" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,23 +235,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
-          <line>76</line>
+          <line>88</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
-          <line>59</line>
+          <line>74</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="29" />
+          <line>53</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
