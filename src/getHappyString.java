@@ -19,11 +19,10 @@ class Solution {
         }
         //! fix false halt condition
         if (layer == 0) return "";
+        //! this statement still useful! no delete!
         layers[layer - 1] = layerSize;
         int[] sequence = new int[n - layer + 1];
         int initial = layer;
-//        int[] result = getNthSequence(layer + 1, layerSize / ((layer == 0) ? 3 : 2), n, k, original);
-//        layer+=1;
         if (layer == 1) {
             // solve layer-1 issue
             //! fixed no-jump-out issue by adding = in 1st condition
@@ -33,10 +32,7 @@ class Solution {
             } else if (2 * layers[1] >= k && k > layers[1]) {
                 sequence[0] = 2;
                 k -= layers[1];
-            }
-//            else {
-//                sequence[0] = 1;
-//            }
+            }//! here do not need another else, cause it's impossible
             layer++;
         }
         while (layer <= n) {
@@ -51,7 +47,7 @@ class Solution {
             layer++;
         }
         // translate sequence into abc
-        StringBuffer ans = new StringBuffer();
+        StringBuilder ans = new StringBuilder();
         //! from here, I move the layer==0 part out from print function
         // and refactored some parts
         char lastChr = 'c';
@@ -95,10 +91,9 @@ public class getHappyString {
     public static void main(String[] args) {
         //!more failing tests
         System.out.println(Solution.getHappyString(3, 12));
-//        System.out.println(Solution.getHappyString(2, 4));
-//        System.out.println(Solution.getHappyString(3, 9));
-//        System.out.println(Solution.getHappyString(10, 100));
-        // 2 2 1 1 1 2 1
+        System.out.println(Solution.getHappyString(2, 4));
+        System.out.println(Solution.getHappyString(3, 9));
+        System.out.println(Solution.getHappyString(10, 100));
         System.out.print("Run successful.");
     }
 }
