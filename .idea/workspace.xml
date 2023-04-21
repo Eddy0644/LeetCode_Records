@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e535188a-d5eb-483b-aa87-036adfbc2280" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/findMinFibonacciNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/getHappyString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maximumCostSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maximumCostSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/findMinFibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/findMinFibonacciNumbers.java" afterDir="false" />
     </list>
+    <list id="f13b16a3-b129-4a71-96a8-bdf72f597afa" name="no变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +54,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="e535188a-d5eb-483b-aa87-036adfbc2280" name="变更" comment="" />
+      <changelist id="f13b16a3-b129-4a71-96a8-bdf72f597afa" name="no变更" comment="" />
       <created>1681386316984</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -63,7 +65,7 @@
       <workItem from="1681549066080" duration="1494000" />
       <workItem from="1681559863665" duration="8181000" />
       <workItem from="1681635298291" duration="381000" />
-      <workItem from="1682075065140" duration="679000" />
+      <workItem from="1682075065140" duration="6349000" />
     </task>
     <task id="LOCAL-00001" summary="init repo">
       <created>1681386443253</created>
@@ -142,7 +144,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681570676316</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=".">
+      <created>1682075861731</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682075861731</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <created>1682075911228</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682075911228</updated>
+    </task>
+    <task id="LOCAL-00014" summary=".findMinFibonacciNumbers">
+      <created>1682076343851</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682076343851</updated>
+    </task>
+    <task id="LOCAL-00015" summary=".rewrite">
+      <created>1682076557537</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682076557537</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,10 +183,12 @@
     <MESSAGE value="moved code from other repo to here" />
     <MESSAGE value="add new &amp; setting up workspace" />
     <MESSAGE value="add ." />
-    <MESSAGE value="." />
     <MESSAGE value=".printbin" />
     <MESSAGE value=".maximumCostSubstring" />
-    <option name="LAST_COMMIT_MESSAGE" value=".maximumCostSubstring" />
+    <MESSAGE value="." />
+    <MESSAGE value=".findMinFibonacciNumbers" />
+    <MESSAGE value=".rewrite" />
+    <option name="LAST_COMMIT_MESSAGE" value=".rewrite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,6 +212,31 @@
           <url>file://$PROJECT_DIR$/src/maximumCostSubstring.java</url>
           <line>17</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/findMinFibonacciNumbers.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/getHappyString.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

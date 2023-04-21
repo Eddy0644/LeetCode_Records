@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.Vector;
 
-class Solution {
+class Solution9 {
     public static int findMinFibonacciNumbers(int k) {
         // rewritten with arraylist, got better records
         // first get nearest fibonacci number
@@ -32,8 +31,8 @@ class Solution {
 
 public class findMinFibonacciNumbers {
     public static void main(String[] args) {
-        System.out.println(Solution.findMinFibonacciNumbers(5));
-        System.out.println(Solution.findMinFibonacciNumbers(19));
+        System.out.println(Solution9.findMinFibonacciNumbers(5));
+        System.out.println(Solution9.findMinFibonacciNumbers(19));
         System.out.print("Run successful.");
     }
 }
