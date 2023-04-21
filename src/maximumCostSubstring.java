@@ -1,4 +1,4 @@
-class Solution {
+class Solution8 {
     public static int maximumCostSubstring0(String s, String c, int[] v) {
         int length = s.length(), max = 0;
         boolean v_all_pos = true;
@@ -55,10 +55,10 @@ class Solution {
 
 public class maximumCostSubstring {
     public static void main(String[] args) {
-        System.out.println(Solution.maximumCostSubstring(
+        System.out.println(Solution8.maximumCostSubstring(
                 "adaa", "d", new int[]{-1000}
         ));
-        System.out.println(Solution.maximumCostSubstring(
+        System.out.println(Solution8.maximumCostSubstring(
                 "abc", "abc", new int[]{-1, -1, -1}
         ));
         System.out.println("Run successful.");

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e535188a-d5eb-483b-aa87-036adfbc2280" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maximumCostSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findMinFibonacciNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/printBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/printBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximumCostSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maximumCostSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "全局库",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;全局库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -61,7 +61,9 @@
       <workItem from="1681438708683" duration="61000" />
       <workItem from="1681545891914" duration="3137000" />
       <workItem from="1681549066080" duration="1494000" />
-      <workItem from="1681559863665" duration="8143000" />
+      <workItem from="1681559863665" duration="8181000" />
+      <workItem from="1681635298291" duration="381000" />
+      <workItem from="1682075065140" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="init repo">
       <created>1681386443253</created>
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681567370167</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=".maximumCostSubstring">
+      <created>1681570676316</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681570676316</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +155,8 @@
     <MESSAGE value="add ." />
     <MESSAGE value="." />
     <MESSAGE value=".printbin" />
-    <option name="LAST_COMMIT_MESSAGE" value=".printbin" />
+    <MESSAGE value=".maximumCostSubstring" />
+    <option name="LAST_COMMIT_MESSAGE" value=".maximumCostSubstring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
