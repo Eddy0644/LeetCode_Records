@@ -1,4 +1,4 @@
     public static void main(String[] args) {
         System.out.println(Solutio());
-        System.out.println("Run successful.");
+        System.out.print("Run successful.");
     }

@@ -7,13 +7,13 @@ class Solution {
         Vector<Integer> fibonacci = new Vector<>();
         fibonacci.addElement(1);
         int lastVal = 2, lastIndex = 1;
-        while (k > lastVal) {
+        while (k >= lastVal) {
             // At here to addElement to avoid lastVal > k
             fibonacci.addElement(lastVal);
             lastVal = fibonacci.elementAt(lastIndex) + fibonacci.elementAt(lastIndex - 1);
             lastIndex++;
         }
-        int nowIndex = lastIndex, nowVal, count = 0;
+        int nowIndex = lastIndex - 1, nowVal, count = 0;
         while (k > 0) {
             if (nowIndex < 0) return -1;
             nowVal = fibonacci.elementAt(nowIndex);
@@ -31,7 +31,8 @@ class Solution {
 
 public class findMinFibonacciNumbers {
     public static void main(String[] args) {
-        System.out.println(Solution.findMinFibonacciNumbers(19));
-        System.out.println("Run successful.");
+        System.out.println(Solution.findMinFibonacciNumbers(5));
+//        System.out.println(Solution.findMinFibonacciNumbers(19));
+        System.out.print("Run successful.");
     }
 }
