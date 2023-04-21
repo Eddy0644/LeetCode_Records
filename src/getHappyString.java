@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-class Solution {
+class Solution10 {
     public static String getHappyString(int n, int k) {
         //!solved n=1 issue (my poor work on small examples)
         if (n == 1) {
@@ -90,10 +90,10 @@ class Solution {
 public class getHappyString {
     public static void main(String[] args) {
         //!more failing tests
-        System.out.println(Solution.getHappyString(3, 12));
-        System.out.println(Solution.getHappyString(2, 4));
-        System.out.println(Solution.getHappyString(3, 9));
-        System.out.println(Solution.getHappyString(10, 100));
+        System.out.println(Solution10.getHappyString(3, 12));
+        System.out.println(Solution10.getHappyString(2, 4));
+        System.out.println(Solution10.getHappyString(3, 9));
+        System.out.println(Solution10.getHappyString(10, 100));
         System.out.print("Run successful.");
     }
 }
