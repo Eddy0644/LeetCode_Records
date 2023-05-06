@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-class Solution {
+class Solution11 {
     public static String reformat0(String s) {
         StringBuilder ans = new StringBuilder(s);
         int length = s.length();
@@ -68,8 +68,8 @@ class Solution {
 
 public class reformat {
     public static void main(String[] args) {
-        System.out.println(Solution.reformat("covid2019"));
-        System.out.println(Solution.reformat("a0b1c2"));
+        System.out.println(Solution11.reformat("covid2019"));
+        System.out.println(Solution11.reformat("a0b1c2"));
         System.out.print("Run successful.");
     }
 }
